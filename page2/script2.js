@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     readMoreButtons.forEach(button => {
         button.addEventListener('click', function() {
             const newsId = this.dataset.newsId;
-            const newsItem = newsData[newsId]; и
+            const newsItem = newsData[newsId]; 
 
             if (newsItem) {
                 modalTitle.textContent = newsItem.title;
